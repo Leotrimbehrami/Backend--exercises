@@ -1,0 +1,17 @@
+{
+  "name": "2.be-bored",
+  "version": "1.0.0",
+  "description": "- erstelle eine  Express App, die mittels axios  Daten der bored Api lädt: https://www.boredapi.com/ \t- API Beispeil: https://www.boredapi.com/api/activity?participants=5  - Wenn die Hauptseite geladen wird (also \"/\"), soll folgendes als html ausgegeben werden (du brauchst body und ähnliches nicht) ```html <h1>Was tun heute?</h1> <p> Wie wäre es mit folgendem: [Aktivität von API] </p> ``` - die Anzahl der Teilnehmer (participants) kannst du frei in deinem Code setzen",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "express": "^4.18.2"
+  }
+}
